@@ -1,4 +1,4 @@
-#!/home/smortz/Projects/O.MG-Mitigation/.venv/bin/python
+#!/home/smortz/O.MG-Mitigation/.venv/bin/python3
 # -*- coding: utf-8 -*-
 import re
 import sys

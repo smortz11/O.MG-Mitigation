@@ -1,5 +1,6 @@
 cffi==2.0.0
 evdev==1.9.2
+-e git+https://github.com/rikka-chunibyo/HIDPi.git@e12bc2024634b26e92122a8d8217fa81c95b7305#egg=hidpi&subdirectory=library
 pycparser==2.23
 PyNaCl==1.6.0
 pyserial==3.5
