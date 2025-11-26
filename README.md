@@ -1,7 +1,41 @@
 # O.MG-Mitigation
-In case of a Pi wipe:
-1. Clone this repo
-2. sudo apt update && sudo apt install libusb-1.0-0-dev libudev-dev -y && curl https://raw.githubusercontent.com/rikka-chunibyo/HIDPi/refs/heads/master/HIDPi_Setup.py -o HIDPi_Setup.py && sudo python3 HIDPi_Setup.py
-3. Restart the pi
-4. Create a venv and install the requirements in requirements.txt
-5. Run with python3 main.py
+---
+## Installation
+1. Clone the repository
+```
+git clone https://github.com/smortz11/O.MG-Mitigation.git
+```
+2. Navigate to the installed directory
+```
+cd O.MG-Mitigation
+```
+3. Run the setup script
+```
+sudo ./setup.sh
+```
+4. After the script runs, reboot the device
+```
+sudo reboot
+```
+5. Begin sending keystrokes with
+```
+python3 main.py
+```
+6. Test sending data to the host
+On the host:
+```
+cat /dev/ttyACM0
+```
+On the Pi:
+```
+echo "This is a test!" > /dev/ttyGS0
+```
+7. Test sending data to the Pi
+On the Pi:
+```
+cat /dev/ttyGS0
+```
+On the host:
+```
+echo "This is a test!" > /dev/ttyACM0
+```
