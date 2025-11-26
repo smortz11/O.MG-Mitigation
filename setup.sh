@@ -69,6 +69,7 @@ Requires=HIDPi.service
 
 [Service]
 Type=oneshot
+ExecStartPre=/bin/sleep 5
 ExecStart=/usr/local/bin/add-usb-serial.sh
 RemainAfterExit=yes
 
