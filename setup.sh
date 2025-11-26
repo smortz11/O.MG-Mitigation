@@ -14,7 +14,9 @@ echo "[2/5] Installing dependencies..."
 sudo apt install -y python3-venv python3-pip git
 
 echo "[3/5] Installing HIDPi..."
-curl -sSL https://raw.githubusercontent.com/rikka-chunibyo/HIDPi/main/install.sh | sudo bash
+sudo apt install libusb-1.0-0-dev libudev-dev -y
+curl https://raw.githubusercontent.com/rikka-chunibyo/HIDPi/refs/heads/master/HIDPi_Setup.py -o HIDPi_Setup.py
+sudo python3 HIDPi_Setup.py
 
 echo "[4/5] Creating Python virtual environment..."
 python3 -m venv .venv
