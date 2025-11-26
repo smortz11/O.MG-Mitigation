@@ -33,7 +33,7 @@ end
 # Unset irrelevant variables.
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV /home/smortz/O.MG-Mitigation/.venv
+set -gx VIRTUAL_ENV /home/smortz/Projects/O.MG-Mitigation/.venv
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/"bin $PATH
