@@ -15,8 +15,12 @@ sudo apt install -y python3-venv python3-pip git
 
 echo "[3/5] Installing HIDPi..."
 sudo apt install libusb-1.0-0-dev libudev-dev -y
-curl https://raw.githubusercontent.com/rikka-chunibyo/HIDPi/refs/heads/master/HIDPi_Setup.py -o HIDPi_Setup.py
-sudo python3 HIDPi_Setup.py
+if [ ! -f /usr/local/bin/HIDPi ] && [ ! -d /sys/kernel/config/usb_gadget/hid_gadget ]; then
+	curl https://raw.githubusercontent.com/rikka-chunibyo/HIDPi/refs/heads/master/HIDPi_Setup.py -o HIDPi_Setup.py
+	sudo python3 HIDPi_Setup.py
+else
+	echo "HIDPi already installed, skipping..."
+fi
 
 echo "[4/5] Creating Python virtual environment..."
 python3 -m venv .venv
@@ -106,6 +110,9 @@ fi
 sudo chmod +x /etc/rc.local
 
 sudo systemctl enable rc-local 2>/dev/null || true
+
+echo "Adding cron job for boot persistence..."
+(sudo crontab -l 2>/dev/null | grep -v "add-usb-serial.sh"; echo "@reboot sleep 15 && /usr/local/bin/add-usb-serial.sh") | sudo crontab -
 
 echo ""
 echo "=============================="
