@@ -1,0 +1,93 @@
+#!/bin/bash
+# setup.sh - Setup script for O.MG Mitigation
+
+set -e #exit on error
+
+echo "=============================="
+echo "O.MG Mitigation Setup Script"
+echo "=============================="
+
+echo "[1/5] Updating system..."
+sudo apt update && sudo apt upgrade -y
+
+echo "[2/5] Installing dependencies..."
+sudo apt install -y python3-venv python3-pip git
+
+echo "[3/5] Installing HIDPi..."
+curl -sSL https://raw.githubusercontent.com/rikka-chunibyo/HIDPi/main/install.sh | sudo bash
+
+echo "[4/5] Creating Python virtual environment..."
+python3 -m venv .venv
+source .venv/bin/activate
+
+pip install --upgrade pip
+pip install -r requirements.txt
+
+echo "[5/5] Configuring USB serial for DHE key exchange..."
+
+sudo tee /usr/local/bin/add-usb-serial.sh > /dev/null <<'EOF'
+#!/bin/bash
+# Add USB serial function to existing HID gadget
+
+GADGET_PATH="/sys/kernel/config/usb_gadget/hid_gadget"
+
+if [ ! -d "$GADGET_PATH" ]; then
+	echo "Error: HIDPi gadget not found at $GADGET_PATH"
+	exit 1
+fi
+
+cd "$GADGET_PATH"
+
+UDC=$(cat UDC)
+echo "" > UDC
+
+if [ ! -d "functions/acm.usb0" ]; then
+	mkdir -p functions/acm.usb0
+	ln -s functions/acm.usb0 configs/c.1/
+fi
+
+echo "$UDC" > UDC
+
+sleep 1
+if [ -e "/dev/ttyGS0" ]; then
+	chmod 666 /dev/ttyGS0
+	echo "USB serial configured: /dev/ttyGS0"
+else
+	echo "Warning: /dev/ttyGS0 not found"
+fi
+EOF
+
+sudo chmod +x /usr/local/bin/add-usb-serial.sh
+
+sudo tee /etc/systemd/system/usb-serial-setup.service > /dev/null <<'EOF'
+[Unit]
+Description=Add USB Serial Function to HID Gadget
+After=HIDPi.service
+Requires=HIDPi.service
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/add-usb-serial.sh
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target
+EOF
+
+sudo systemctl daemon-reload
+sudo systemctl enable usb-serial-setup.service
+sudo systemctl start usb-serial-setup.service
+
+echo ""
+echo "=============================="
+echo "Setup Complete!"
+echo "=============================="
+echo ""
+echo "Next steps:"
+echo "1. Reboot the Pi: sudo reboot"
+echo "2. After reboot, activate venv: source .venv/bin/activate"
+echo "3. Run main.py: python3 main.py"
+echo ""
+echo "USB HID: Will appear as 'Rikka HIDPi' keyboard"
+echo "USB Serial: /dev/ttyGS0 on Pi, /dev/ttyACM0 on host"
+echo ""
