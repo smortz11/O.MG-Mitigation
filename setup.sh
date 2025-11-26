@@ -81,6 +81,32 @@ sudo systemctl daemon-reload
 sudo systemctl enable usb-serial-setup.service
 sudo systemctl start usb-serial-setup.service
 
+echo "Setting up rc.local for boot persistence..."
+
+if [ ! -f /etc/rc.local ]; then
+	sudo tee /etc/rc.local > /dev/null <<'RCLOCAL'
+#!/bin/bash
+# Wait for system to be ready
+sleep 5
+# Add USB serial function
+/usr/local/bin/add-usb-serial.sh
+exit 0
+RCLOCAL
+else
+	if ! grep -q "add-usb-serial.sh" /etc/rc.local; then
+	sudo set -i '/^exit 0/d' /etc/rc.local
+	sudo tee -a /etc/rc.local > /dev/null <<'RCLOCAL'
+sleep 5
+/usr/local/bin/add-usb-serial.sh
+exit 0
+RCLOCAL
+	fi
+fi
+
+sudo chmod +x /etc/rc.local
+
+sudo systemctl enable rc-local 2>/dev/null || true
+
 echo ""
 echo "=============================="
 echo "Setup Complete!"
