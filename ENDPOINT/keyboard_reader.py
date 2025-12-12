@@ -11,35 +11,41 @@ class KeyboardReader:
         # List all input devices
         devices = [InputDevice(path) for path in list_devices()]
         
-        # Find the HID gadget device (from SENDER)
-        # It might show up as "raspberrypi" or "HID Gadget" or similar
+        # Find the keyboard HID gadget device (not mouse)
         self.dev = None
         for device in devices:
-            print(f"  Found: {device.name} at {device.path}")
-            # Look for keywords that indicate it's from the SENDER
-            if any(keyword in device.name.lower() for keyword in ['gadget', 'raspberrypi', 'hid']):
+            # Check if it's a keyboard by looking at capabilities
+            caps = device.capabilities()
+            
+            # Must have EV_KEY (keyboard events)
+            if ecodes.EV_KEY not in caps:
+                continue
+            
+            # Check if it has letter keys (keyboards have KEY_A, etc.)
+            key_codes = caps.get(ecodes.EV_KEY, [])
+            has_letters = any(code in key_codes for code in [
+                ecodes.KEY_A, ecodes.KEY_B, ecodes.KEY_C, ecodes.KEY_Z
+            ])
+            
+            # Should NOT have mouse buttons
+            has_mouse = any(code in key_codes for code in [
+                ecodes.BTN_LEFT, ecodes.BTN_RIGHT, ecodes.BTN_MIDDLE
+            ])
+            
+            # If it has letters and no mouse buttons, it's probably the keyboard
+            if has_letters and not has_mouse and 'rikka' in device.name.lower():
                 self.dev = device
-                print(f"[ENDPOINT] Using: {device.name}")
+                print(f"[ENDPOINT] Using keyboard: {device.name} at {device.path}")
                 break
         
         if not self.dev:
-            # If can't auto-detect, let user choose or use first keyboard
-            print("[ENDPOINT] Could not auto-detect SENDER device")
+            print("[ENDPOINT] Could not auto-detect keyboard device")
             print("[ENDPOINT] Available devices:")
-            for i, device in enumerate(devices):
-                print(f"  {i}: {device.name} - {device.path}")
-            
-            # For now, just use the first keyboard-like device
             for device in devices:
                 caps = device.capabilities()
-                # Check if it has keyboard capabilities
-                if ecodes.EV_KEY in caps:
-                    self.dev = device
-                    print(f"[ENDPOINT] Using: {device.name}")
-                    break
-        
-        if not self.dev:
-            raise RuntimeError("No suitable input device found")
+                has_key = ecodes.EV_KEY in caps
+                print(f"  {device.name} - {device.path} [EV_KEY: {has_key}]")
+            raise RuntimeError("No suitable keyboard device found")
     
     def read_events(self):
         """Generator yielding keyboard events with modifiers"""
