@@ -1,6 +1,6 @@
 import time
-from seedgen import generate_seed
-from piA_send import get_symmetric_key, get_base_time
+from SENDER.seedgen_SENDER import generate_seed
+from SENDER.dhe_time_SENDER import get_symmetric_key, get_base_time
 
 INTERVAL = 10
 TIME_OFFSET = -.4
