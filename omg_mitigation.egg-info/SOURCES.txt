@@ -17,6 +17,7 @@ omg_mitigation.egg-info/dependency_links.txt
 omg_mitigation.egg-info/requires.txt
 omg_mitigation.egg-info/top_level.txt
 tests/__init__.py
-tests/test_keymap.py
+tests/test_keymap_ENDPOINT.py
+tests/test_keymap_SENDER.py
 tests/test_seed_ENDPOINT.py
 tests/test_seed_SENDER.py
