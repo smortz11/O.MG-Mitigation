@@ -1,6 +1,6 @@
-from seedgen import generate_seed
-from piA_send import get_symmetric_key, get_base_time
-from keymap import seed_to_keymap, apply_keymap, decrypt_text
+from SENDER.seed_gen_SENDER import generate_seed
+from SENDER.dhe_time_SENDER import get_symmetric_key, get_base_time
+from UTILS.keymap import seed_to_keymap, apply_keymap, decrypt_text
 
 INTERVAL = 10
 TIME_OFFSET = -.4
