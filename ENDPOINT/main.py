@@ -8,7 +8,6 @@ from ENDPOINT.seedgen_ENDPOINT import generate_seed
 from UTILS.keymap import seed_to_keymap, reverse_keymap
 
 INTERVAL = 10
-TIME_OFFSET = 0.0  # ENDPOINT doesn't need offset (it's the reference)
 
 # Map evdev keys to characters (for incoming scrambled keys)
 EVDEV_TO_CHAR = {
@@ -49,10 +48,10 @@ def main():
         for event in reader.read_events():
             # Update keymap if interval changed
             now = time.time()
-            counter = int((now - base_time + TIME_OFFSET) / INTERVAL)
+            counter = int((now - base_time) / INTERVAL)
             if counter != last_counter:
                 last_counter = counter
-                seed = generate_seed(sym_key, base_time, INTERVAL, TIME_OFFSET)
+                seed = generate_seed(sym_key, base_time, INTERVAL)
                 current_keymap = seed_to_keymap(seed)
                 current_reverse_map = reverse_keymap(current_keymap)
                 print(f"\n[KEYMAP ROTATED] Counter={counter}, Seed={seed.hex()[:12]}...\n")
