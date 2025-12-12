@@ -34,6 +34,9 @@ def main():
     sym_key = get_symmetric_key()
     base_time = get_base_time()
     
+    print(f"[ENDPOINT] Symmetric key: {sym_key.hex()[:16]}...")
+    print(f"[ENDPOINT] Base time: {base_time}")
+    
     reader = KeyboardReader()
     writer = KeyboardWriter()
     
@@ -42,7 +45,7 @@ def main():
     last_counter = None
     
     print("[ENDPOINT] Starting decoder with rotating keymap...")
-    print("[ENDPOINT] Press Ctrl+C to stop.")
+    print("[ENDPOINT] Press Ctrl+C to stop.\n")
     
     try:
         for event in reader.read_events():
@@ -54,18 +57,25 @@ def main():
                 seed = generate_seed(sym_key, base_time, INTERVAL)
                 current_keymap = seed_to_keymap(seed)
                 current_reverse_map = reverse_keymap(current_keymap)
-                print(f"\n[KEYMAP ROTATED] Counter={counter}, Seed={seed.hex()[:12]}...\n")
+                print(f"\n[KEYMAP ROTATED] Counter={counter}, Seed={seed.hex()[:12]}...")
+                # Show forward and reverse mapping samples
+                print(f"  Forward: a→{current_keymap.get('a', '?')}, e→{current_keymap.get('e', '?')}")
+                print(f"  Reverse: {current_keymap.get('a', '?')}→a, {current_keymap.get('e', '?')}→e")
+                print(f"  Reverse map has {len(current_reverse_map)} entries")
+                print()
             
             key = event['key']
             shift = event['shift']
             ctrl = event['ctrl']
+            
+            print(f"[DEBUG] Received key: {key}, shift={shift}, ctrl={ctrl}")
             
             # Check if this is a mappable key
             scrambled_char = EVDEV_TO_CHAR.get(key)
             
             if not scrambled_char:
                 # Special keys (Enter, Tab, etc.) - pass through as-is
-                # Just write the key directly to output
+                print(f"[DEBUG] Special key (unmapped): {key}")
                 keycode = getattr(__import__('evdev.ecodes', fromlist=['ecodes']), key, None)
                 if keycode:
                     modifier = 0
@@ -81,26 +91,34 @@ def main():
             if is_uppercase:
                 scrambled_char = scrambled_char.upper()
             
+            print(f"[DEBUG] Scrambled char received: '{scrambled_char}'")
+            
             # Decode: scrambled → original
             original_char = current_reverse_map.get(scrambled_char.lower(), scrambled_char.lower())
+            print(f"[DEBUG] Looking up '{scrambled_char.lower()}' in reverse map...")
+            print(f"[DEBUG] Reverse map says: '{scrambled_char.lower()}' → '{original_char}'")
             
             # Preserve case
             if scrambled_char.isupper():
                 original_char = original_char.upper()
             
+            print(f"[DEBUG] Final decoded char: '{original_char}'")
+            
             # Convert original character → keycode
             keycode, modifier = char_to_keycode(original_char)
             if not keycode:
-                print(f"Warning: Can't map '{original_char}' to keycode")
+                print(f"[ERROR] Can't map '{original_char}' to keycode")
                 continue
             
             # Add Ctrl if needed
             if ctrl:
                 modifier |= 0x01
             
+            print(f"[DEBUG] Writing keycode={keycode}, modifier={modifier}")
+            
             # Write decoded key
             writer.write_key(keycode, modifier)
-            print(f"  '{scrambled_char}' → '{original_char}'")
+            print(f"✓✓✓ DECODED: '{scrambled_char}' → '{original_char}' ✓✓✓\n")
     
     except KeyboardInterrupt:
         print("\n[ENDPOINT] Stopped by user.")
