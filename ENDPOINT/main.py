@@ -106,6 +106,7 @@ def main():
     except KeyboardInterrupt:
         print("\n[ENDPOINT] Stopped by user.")
     finally:
+	reader.close()
         writer.close()
 
 if __name__ == "__main__":
