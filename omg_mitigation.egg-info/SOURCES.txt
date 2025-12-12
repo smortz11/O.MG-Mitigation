@@ -6,8 +6,12 @@ ENDPOINT/dhe_time_ENDPOINT.py
 ENDPOINT/seedgen_ENDPOINT.py
 SENDER/__init__.py
 SENDER/dhe_time_SENDER.py
+SENDER/key_mapper.py
+SENDER/key_reader.py
+SENDER/key_sender.py
+SENDER/main.py
 SENDER/main_SENDER.py
-SENDER/seed_gen_SENDER.py
+SENDER/seedgen_SENDER.py
 UTILS/__init__.py
 UTILS/get_device_info.py
 UTILS/keymap.py
@@ -17,6 +21,6 @@ omg_mitigation.egg-info/dependency_links.txt
 omg_mitigation.egg-info/requires.txt
 omg_mitigation.egg-info/top_level.txt
 tests/__init__.py
-tests/test_keymap.py
+tests/test_keymap_SENDER.py
 tests/test_seed_ENDPOINT.py
 tests/test_seed_SENDER.py

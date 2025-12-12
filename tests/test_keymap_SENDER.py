@@ -1,5 +1,5 @@
-from SENDER.seed_gen_SENDER import generate_seed
-from SENDER.dhe_time_SENDER import get_symmetric_key, get_base_time
+from SENDER.seed_gen import generate_seed
+from SENDER.dhe_time import get_symmetric_key, get_base_time
 from UTILS.keymap import seed_to_keymap, apply_keymap, decrypt_text
 
 INTERVAL = 10
