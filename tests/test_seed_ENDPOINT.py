@@ -1,6 +1,6 @@
 import time
-from seedgen import generate_seed
-from piB_recv import get_symmetric_key, get_base_time
+from ENDPOINT.seedgen_ENDPOINT import generate_seed
+from ENDPOINT.dhe_time_ENDPOINT import get_symmetric_key, get_base_time
 
 INTERVAL = 10
 
