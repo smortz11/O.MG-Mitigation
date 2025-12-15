@@ -16,7 +16,8 @@ def seed_to_keymap(seed: bytes) -> dict:
     Returns a dict: {original_key: scrambled_key}
     """
     # Use seed as random state
-    rng = random.Random(seed)
+    seed_int = int.from_bytes(seed, byteorder='big')
+    rng = random.Random(seed_int)
     
     # Create a shuffled copy of keys
     scrambled = KEYS.copy()
