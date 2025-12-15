@@ -1,3 +1,4 @@
+
 """Main keyboard forwarding loop with keymap scrambling"""
 import time
 from SENDER.keyboard_reader import KeyboardReader
@@ -12,7 +13,7 @@ from SENDER.seedgen import generate_seed
 from UTILS.keymap import seed_to_keymap
 
 INTERVAL = 10
-TIME_OFFSET = 0.5
+TIME_OFFSET = -0.4  # Negative so SENDER is ahead
 
 def main():
     # Initialize encryption
@@ -31,10 +32,11 @@ def main():
         for key_event, caps_lock, shift, ctrl in reader.read_events():
             # Update keymap if interval changed
             now = time.time()
-            counter = int((now - base_time + TIME_OFFSET) / INTERVAL)
+            counter = int((now - (base_time + TIME_OFFSET)) / INTERVAL)
+            
             if counter != last_counter:
                 last_counter = counter
-                seed = generate_seed(sym_key, base_time, INTERVAL, TIME_OFFSET)
+                seed = generate_seed(sym_key, counter)  # FIXED: Only pass counter
                 current_keymap = seed_to_keymap(seed)
                 print(f"\n[KEYMAP ROTATED] Counter={counter}, Seed={seed.hex()[:12]}...\n")
             
