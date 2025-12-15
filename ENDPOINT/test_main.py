@@ -1,3 +1,4 @@
+
 """ENDPOINT - Receive and decode scrambled keystrokes"""
 import time
 from ENDPOINT.keyboard_reader import KeyboardReader
@@ -29,13 +30,24 @@ EVDEV_TO_CHAR = {
     'KEY_COMMA': ',', 'KEY_DOT': '.', 'KEY_SLASH': '/',
 }
 
-# Reverse mapping for special keys that need to be passed through
+# Special keys that pass through unchanged
 SPECIAL_KEYS = [
     'KEY_ENTER', 'KEY_ESC', 'KEY_BACKSPACE', 'KEY_TAB',
     'KEY_UP', 'KEY_DOWN', 'KEY_LEFT', 'KEY_RIGHT',
     'KEY_HOME', 'KEY_END', 'KEY_PAGEUP', 'KEY_PAGEDOWN',
     'KEY_DELETE', 'KEY_INSERT',
 ]
+
+# Shift transformation map
+SHIFT_MAP = {
+    '1': '!', '2': '@', '3': '#', '4': '$', '5': '%',
+    '6': '^', '7': '&', '8': '*', '9': '(', '0': ')',
+    '-': '_', '=': '+',
+    '[': '{', ']': '}',
+    ';': ':', "'": '"',
+    '`': '~', '\\': '|',
+    ',': '<', '.': '>', '/': '?',
+}
 
 def get_current_counter(base_time):
     """Calculate counter - MUST match test code exactly"""
@@ -70,14 +82,13 @@ def main():
             
             if counter != last_counter:
                 last_counter = counter
-                seed = generate_seed(sym_key, counter)  # Pass counter directly!
+                seed = generate_seed(sym_key, counter)
                 current_keymap = seed_to_keymap(seed)
                 current_reverse_map = reverse_keymap(current_keymap)
                 now = time.time()
                 print(f"\n[KEYMAP ROTATED] Counter={counter}, Seed={seed.hex()[:12]}...")
                 print(f"  Time: {now:.2f}, Base: {base_time}, Diff: {now - base_time:.2f}s")
-                print(f"  Forward: a→{current_keymap.get('a', '?')}, e→{current_keymap.get('e', '?')}")
-                print(f"  Reverse: {current_keymap.get('a', '?')}→a, {current_keymap.get('e', '?')}→e")
+                print(f"  Forward: a→{current_keymap.get('a', '?')}, k→{current_keymap.get('k', '?')}")
                 print(f"  Reverse map has {len(current_reverse_map)} entries\n")
             
             key = event['key']
@@ -86,7 +97,7 @@ def main():
             
             # Check if this is a special key (Enter, Tab, etc.) - pass through as-is
             if key in SPECIAL_KEYS:
-                print(f"[SPECIAL] {key}")
+                print(f"[PASS-THROUGH] {key}")
                 keycode = getattr(__import__('evdev.ecodes', fromlist=['ecodes']), key, None)
                 if keycode:
                     modifier = 0
@@ -97,10 +108,10 @@ def main():
                     writer.write_key(keycode, modifier)
                 continue
             
-            # Check if this is a mappable key
-            scrambled_char = EVDEV_TO_CHAR.get(key)
+            # Get the base character for this key
+            base_char = EVDEV_TO_CHAR.get(key)
             
-            if not scrambled_char:
+            if not base_char:
                 # Unknown key - pass through as-is
                 print(f"[UNKNOWN] {key}")
                 keycode = getattr(__import__('evdev.ecodes', fromlist=['ecodes']), key, None)
@@ -113,42 +124,28 @@ def main():
                     writer.write_key(keycode, modifier)
                 continue
             
-            # Store original shift state for special characters
-            original_shift = shift
+            # Determine what character was actually sent
+            # This must match EXACTLY how SENDER encodes it
+            if base_char.isalpha():
+                # Letter: uppercase if shift is pressed
+                scrambled_char = base_char.upper() if shift else base_char.lower()
+            elif shift and base_char in SHIFT_MAP:
+                # Shifted symbol (1→!, 2→@, etc.)
+                scrambled_char = SHIFT_MAP[base_char]
+            else:
+                # Unshifted symbol or number
+                scrambled_char = base_char
             
-            # For reverse lookup, we need to consider what the SENDER sent
-            # The SENDER shifts special chars, so we need to figure out what char they sent
-            lookup_char = scrambled_char
+            print(f"[RECEIVED] '{scrambled_char}' (key={key}, base='{base_char}', shift={shift})")
             
-            # If shift was pressed, figure out what shifted character was sent
-            if shift:
-                # Check if this creates a special character
-                shift_map = {
-                    '1': '!', '2': '@', '3': '#', '4': '$', '5': '%',
-                    '6': '^', '7': '&', '8': '*', '9': '(', '0': ')',
-                    '-': '_', '=': '+',
-                    '[': '{', ']': '}',
-                    ';': ':', "'": '"',
-                    '`': '~', '\\': '|',
-                    ',': '<', '.': '>', '/': '?',
-                }
-                if scrambled_char in shift_map:
-                    lookup_char = shift_map[scrambled_char]
-                else:
-                    # It's a letter, convert to uppercase
-                    lookup_char = scrambled_char.upper()
+            # Decode: scrambled → original (use lowercase for lookup)
+            original_char = current_reverse_map.get(scrambled_char.lower(), scrambled_char.lower())
             
-            print(f"[SCRAMBLED] '{lookup_char}' (key={key}, shift={shift})")
-            
-            # Decode: scrambled → original
-            # Use lowercase for lookup in reverse map
-            original_char = current_reverse_map.get(lookup_char.lower(), lookup_char.lower())
-            
-            # Preserve case/shift state
-            if lookup_char.isupper():
+            # Preserve case: if scrambled was uppercase, original should be uppercase
+            if scrambled_char.isupper() and original_char.isalpha():
                 original_char = original_char.upper()
             
-            print(f"[DECODED] '{lookup_char}' → '{original_char}'")
+            print(f"[DECODED] '{scrambled_char}' → '{original_char}'")
             
             # Convert original character → keycode
             keycode, modifier = char_to_keycode(original_char)
@@ -162,7 +159,7 @@ def main():
             
             # Write decoded key
             writer.write_key(keycode, modifier)
-            print(f"✓ '{lookup_char}' → '{original_char}'\n")
+            print(f"✓ '{scrambled_char}' → '{original_char}'\n")
     
     except KeyboardInterrupt:
         print("\n[ENDPOINT] Stopped by user.")
