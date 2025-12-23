@@ -8,6 +8,7 @@ ENDPOINT/keyboard_reader.py
 ENDPOINT/keyboard_writer.py
 ENDPOINT/main.py
 ENDPOINT/seedgen_ENDPOINT.py
+ENDPOINT/test_main.py
 SENDER/__init__.py
 SENDER/dhe_time.py
 SENDER/key_mapper.py

@@ -1,6 +1,21 @@
+"""
+tests/research/run_sender_timed.py
 
-"""Main keyboard forwarding loop with keymap scrambling"""
-import time
+Wrapper to run SENDER with timing instrumentation
+NO CHANGES to original main.py needed!
+"""
+
+import sys
+from pathlib import Path
+
+# Add project root to path so we can import SENDER modules
+project_root = Path(__file__).parent.parent.parent
+sys.path.insert(0, str(project_root))
+
+# Import timing logger
+from tests.research.shared_timer import SharedTimer
+
+# Import SENDER modules
 from SENDER.keyboard_reader import KeyboardReader
 from SENDER.key_mapper import (
     get_hid_code, calculate_modifier, 
@@ -12,10 +27,11 @@ from SENDER.dhe_time import get_symmetric_key, get_base_time
 from SENDER.seedgen import generate_seed
 from UTILS.keymap import seed_to_keymap
 
+import time
+
 INTERVAL = 10
-TIME_OFFSET = -0.4  # Negative so SENDER is ahead
-BUFFER_WINDOW = .4  # Don't send if within 0.5s of rotation
-POST_ROTATION_GUARD = .4
+TIME_OFFSET = -0.4
+BUFFER_WINDOW = 0.5
 
 def get_current_counter(base_time):
     """Calculate counter - adjusted for serial transmission delay"""
@@ -32,6 +48,10 @@ def get_time_until_rotation(base_time):
     return time_until_rotation
 
 def main():
+    # Initialize timing
+    timer = SharedTimer("SENDER")
+    print("[TIMING] SENDER timing enabled - logging to tests/research/results/timing_log.jsonl")
+    
     # Initialize encryption
     print("[SENDER] Initializing secure connection...")
     sym_key = get_symmetric_key()
@@ -53,13 +73,15 @@ def main():
     
     try:
         for key_event, caps_lock, shift, ctrl in reader.read_events():
+            # *** TIMING: Log key capture ***
+            timer.log_event("capture", key_event.keycode)
+            
             # Check if we're too close to a rotation
             time_until_rotation = get_time_until_rotation(base_time)
             
             if time_until_rotation < BUFFER_WINDOW:
-                # Too close to rotation - wait for new counter
                 print(f"[BUFFER] {time_until_rotation:.2f}s until rotation - waiting...")
-                time.sleep(time_until_rotation + POST_ROTATION_GUARD)  # Wait plus small margin
+                time.sleep(time_until_rotation + 0.05)
                 print("[BUFFER] Rotation complete, resuming...")
             
             # Update keymap if interval changed
@@ -80,11 +102,15 @@ def main():
             if state == key_event.key_down or state == key_event.key_hold:
                 # Check if this key can be scrambled
                 if not is_mappable_key(key):
-                    # Special keys (Enter, Tab, Backspace, etc.) - send as-is
+                    # Special keys - send as-is
                     print(f"[PASS-THROUGH] {key}")
                     hid_key = get_hid_code(key)
                     if hid_key:
                         modifier = calculate_modifier(key, shift, caps_lock, ctrl)
+                        
+                        # *** TIMING: Log before send ***
+                        timer.log_event("encrypt_send", key_event.keycode, {'passthrough': True})
+                        
                         send_key(modifier, hid_key, key)
                     continue
                 
@@ -95,30 +121,25 @@ def main():
                 
                 # Determine the actual character being typed
                 if base_char.isalpha():
-                    # Letter: use caps XOR shift for uppercase
                     if shift ^ caps_lock:
                         original_char = base_char.upper()
                     else:
                         original_char = base_char.lower()
                 elif shift and base_char in SHIFT_MAP:
-                    # Shifted symbol: 1→!, 2→@, etc.
                     original_char = SHIFT_MAP[base_char]
                 else:
-                    # Unshifted symbol or number
                     original_char = base_char
                 
                 print(f"[INPUT] '{original_char}' (key={key}, base='{base_char}', shift={shift}, caps={caps_lock})")
                 
                 # Scramble the character
-                # CRITICAL: Always use lowercase for keymap lookup
                 scrambled_char = current_keymap.get(original_char.lower(), original_char.lower())
                 
-                # Preserve case: if input was uppercase, output must be uppercase
+                # Preserve case
                 if original_char.isupper():
                     if scrambled_char.isalpha():
                         scrambled_char = scrambled_char.upper()
                     else:
-                        # This shouldn't happen with separated letter/symbol pools
                         print(f"[ERROR] Uppercase letter '{original_char}' mapped to non-letter '{scrambled_char}'!")
                         continue
                 
@@ -143,12 +164,19 @@ def main():
                 if ctrl:
                     modifier |= MOD_LCTRL
                 
+                # *** TIMING: Log before send ***
+                timer.log_event("encrypt_send", key_event.keycode, {
+                    'original': original_char,
+                    'scrambled': scrambled_char
+                })
+                
                 # Send scrambled key
                 send_key(modifier, hid_key, scrambled_evdev)
                 print(f"[SENT] '{scrambled_char}' (evdev={scrambled_evdev}, HID=0x{hid_key:02x}, mod=0x{modifier:02x})\n")
     
     except KeyboardInterrupt:
         print("\n[SENDER] Stopped by user.")
+        print(f"[TIMING] Log saved to tests/research/results/timing_log.jsonl")
 
 if __name__ == "__main__":
     main()
