@@ -5,7 +5,7 @@ from SENDER.keyboard_reader import KeyboardReader
 from SENDER.key_mapper import (
     get_hid_code, calculate_modifier, 
     evdev_to_char, char_to_evdev, is_mappable_key,
-    MOD_LSHIFT, MOD_LCTRL, EVDEV_TO_CHAR, SHIFT_MAP
+    SHIFT_MAP, MOD_LSHIFT, MOD_LCTRL, EVDEV_TO_CHAR
 )
 from SENDER.key_sender import send_key
 from SENDER.dhe_time import get_symmetric_key, get_base_time
@@ -14,6 +14,22 @@ from UTILS.keymap import seed_to_keymap
 
 INTERVAL = 10
 TIME_OFFSET = -0.4  # Negative so SENDER is ahead
+BUFFER_WINDOW = .4  # Don't send if within 0.5s of rotation
+POST_ROTATION_GUARD = .4
+
+def get_current_counter(base_time):
+    """Calculate counter - adjusted for serial transmission delay"""
+    now = time.time()
+    counter = int((now - (base_time + TIME_OFFSET)) / INTERVAL)
+    return counter
+
+def get_time_until_rotation(base_time):
+    """Calculate how many seconds until next counter rotation"""
+    now = time.time()
+    adjusted_time = now - (base_time + TIME_OFFSET)
+    seconds_into_interval = adjusted_time % INTERVAL
+    time_until_rotation = INTERVAL - seconds_into_interval
+    return time_until_rotation
 
 def main():
     # Initialize encryption
@@ -21,24 +37,41 @@ def main():
     sym_key = get_symmetric_key()
     base_time = get_base_time()
     
+    print(f"[SENDER] Symmetric key: {sym_key.hex()[:16]}...")
+    print(f"[SENDER] Base time: {base_time}")
+    print(f"[SENDER] Current time: {time.time():.2f}")
+    print(f"[SENDER] Time offset: {TIME_OFFSET}s")
+    print(f"[SENDER] Buffer window: {BUFFER_WINDOW}s")
+    print(f"[SENDER] Initial counter: {get_current_counter(base_time)}")
+    
     reader = KeyboardReader()
     current_keymap = None
     last_counter = None
     
     print("[SENDER] Starting keyboard with rotating scrambler...")
-    print("[SENDER] Press Ctrl+C to stop.")
+    print("[SENDER] Press Ctrl+C to stop.\n")
     
     try:
         for key_event, caps_lock, shift, ctrl in reader.read_events():
+            # Check if we're too close to a rotation
+            time_until_rotation = get_time_until_rotation(base_time)
+            
+            if time_until_rotation < BUFFER_WINDOW:
+                # Too close to rotation - wait for new counter
+                print(f"[BUFFER] {time_until_rotation:.2f}s until rotation - waiting...")
+                time.sleep(time_until_rotation + POST_ROTATION_GUARD)  # Wait plus small margin
+                print("[BUFFER] Rotation complete, resuming...")
+            
             # Update keymap if interval changed
-            now = time.time()
-            counter = int((now - (base_time + TIME_OFFSET)) / INTERVAL)
+            counter = get_current_counter(base_time)
             
             if counter != last_counter:
                 last_counter = counter
                 seed = generate_seed(sym_key, counter)
                 current_keymap = seed_to_keymap(seed)
+                now = time.time()
                 print(f"\n[KEYMAP ROTATED] Counter={counter}, Seed={seed.hex()[:12]}...")
+                print(f"  Time: {now:.2f}, Base: {base_time}, Adjusted: {now - (base_time + TIME_OFFSET):.2f}s")
                 print(f"  Sample: a→{current_keymap.get('a', '?')}, !→{current_keymap.get('!', '?')}\n")
             
             key = key_event.keycode
@@ -76,12 +109,18 @@ def main():
                 
                 print(f"[INPUT] '{original_char}' (key={key}, base='{base_char}', shift={shift}, caps={caps_lock})")
                 
-                # Scramble the character (use lowercase for mapping lookup)
+                # Scramble the character
+                # CRITICAL: Always use lowercase for keymap lookup
                 scrambled_char = current_keymap.get(original_char.lower(), original_char.lower())
                 
-                # Preserve case for letters
-                if original_char.isupper() and scrambled_char.isalpha():
-                    scrambled_char = scrambled_char.upper()
+                # Preserve case: if input was uppercase, output must be uppercase
+                if original_char.isupper():
+                    if scrambled_char.isalpha():
+                        scrambled_char = scrambled_char.upper()
+                    else:
+                        # This shouldn't happen with separated letter/symbol pools
+                        print(f"[ERROR] Uppercase letter '{original_char}' mapped to non-letter '{scrambled_char}'!")
+                        continue
                 
                 print(f"[SCRAMBLE] '{original_char}' → '{scrambled_char}'")
                 
