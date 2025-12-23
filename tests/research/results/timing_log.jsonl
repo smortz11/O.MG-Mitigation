@@ -1,0 +1,549 @@
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_T", "timestamp": 699497.871480232, "wall_time": 1766524651.9073684, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_T", "timestamp": 699497.872036751, "wall_time": 1766524651.9079225, "metadata": {"original": "t", "scrambled": "k"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_H", "timestamp": 699498.015423325, "wall_time": 1766524652.05131, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_H", "timestamp": 699498.015654584, "wall_time": 1766524652.0515392, "metadata": {"original": "h", "scrambled": "z"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_I", "timestamp": 699498.09547651, "wall_time": 1766524652.1313634, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_I", "timestamp": 699498.095695714, "wall_time": 1766524652.1315804, "metadata": {"original": "i", "scrambled": "h"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_S", "timestamp": 699498.223423251, "wall_time": 1766524652.259309, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_S", "timestamp": 699498.223632843, "wall_time": 1766524652.2595174, "metadata": {"original": "s", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_SPACE", "timestamp": 699498.399428565, "wall_time": 1766524652.4353147, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_SPACE", "timestamp": 699498.399660787, "wall_time": 1766524652.4355457, "metadata": {"original": " ", "scrambled": "]"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_I", "timestamp": 699499.263526935, "wall_time": 1766524653.2994137, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_I", "timestamp": 699499.263769139, "wall_time": 1766524653.299654, "metadata": {"original": "i", "scrambled": "h"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_S", "timestamp": 699499.407541268, "wall_time": 1766524653.4434276, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_S", "timestamp": 699499.407757528, "wall_time": 1766524653.4436424, "metadata": {"original": "s", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_SPACE", "timestamp": 699499.551518527, "wall_time": 1766524653.5874047, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_SPACE", "timestamp": 699499.551739379, "wall_time": 1766524653.5876238, "metadata": {"original": " ", "scrambled": "]"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699499.711599176, "wall_time": 1766524653.7474859, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699499.711823213, "wall_time": 1766524653.7477078, "metadata": {"original": "a", "scrambled": "w"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_SPACE", "timestamp": 699499.743698361, "wall_time": 1766524653.7795863, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_SPACE", "timestamp": 699499.744220601, "wall_time": 1766524653.7801065, "metadata": {"original": " ", "scrambled": "]"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_T", "timestamp": 699500.639692731, "wall_time": 1766524654.6755793, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_T", "timestamp": 699500.639938156, "wall_time": 1766524654.6758227, "metadata": {"original": "t", "scrambled": "k"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_E", "timestamp": 699500.784091582, "wall_time": 1766524654.8199832, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_E", "timestamp": 699500.784947101, "wall_time": 1766524654.8208325, "metadata": {"original": "e", "scrambled": "r"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_S", "timestamp": 699500.879535138, "wall_time": 1766524654.9154222, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_S", "timestamp": 699500.879745082, "wall_time": 1766524654.9156299, "metadata": {"original": "s", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_T", "timestamp": 699501.039595286, "wall_time": 1766524655.0754828, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_T", "timestamp": 699501.039812378, "wall_time": 1766524655.0756972, "metadata": {"original": "t", "scrambled": "k"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_SPACE", "timestamp": 699501.183598415, "wall_time": 1766524655.2194853, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_SPACE", "timestamp": 699501.614501619, "wall_time": 1766524655.6503863, "metadata": {"original": " ", "scrambled": "&"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_T", "timestamp": 699501.615869045, "wall_time": 1766524655.6517553, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_T", "timestamp": 699501.616105471, "wall_time": 1766524655.6519902, "metadata": {"original": "t", "scrambled": "u"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_O", "timestamp": 699501.619768341, "wall_time": 1766524655.6556537, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_O", "timestamp": 699501.619918489, "wall_time": 1766524655.6558034, "metadata": {"original": "o", "scrambled": "d"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_SPACE", "timestamp": 699501.621850156, "wall_time": 1766524655.6577358, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_SPACE", "timestamp": 699501.622156248, "wall_time": 1766524655.658041, "metadata": {"original": " ", "scrambled": "&"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_BACKSPACE", "timestamp": 699502.735774359, "wall_time": 1766524656.7716615, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_BACKSPACE", "timestamp": 699502.736017155, "wall_time": 1766524656.7719018, "metadata": {"passthrough": true}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_BACKSPACE", "timestamp": 699502.911677118, "wall_time": 1766524656.947564, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_BACKSPACE", "timestamp": 699502.911902248, "wall_time": 1766524656.9477868, "metadata": {"passthrough": true}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_BACKSPACE", "timestamp": 699503.071686711, "wall_time": 1766524657.1075733, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_BACKSPACE", "timestamp": 699503.071898266, "wall_time": 1766524657.1077828, "metadata": {"passthrough": true}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_BACKSPACE", "timestamp": 699503.471766636, "wall_time": 1766524657.5076535, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_BACKSPACE", "timestamp": 699503.471988562, "wall_time": 1766524657.5078733, "metadata": {"passthrough": true}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_SPACE", "timestamp": 699504.12779708, "wall_time": 1766524658.1636837, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_SPACE", "timestamp": 699504.128049284, "wall_time": 1766524658.163934, "metadata": {"original": " ", "scrambled": "&"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_F", "timestamp": 699504.591768506, "wall_time": 1766524658.627656, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_F", "timestamp": 699504.592024117, "wall_time": 1766524658.627909, "metadata": {"original": "f", "scrambled": "g"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_O", "timestamp": 699504.703781247, "wall_time": 1766524658.7396677, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_O", "timestamp": 699504.704033932, "wall_time": 1766524658.7399187, "metadata": {"original": "o", "scrambled": "d"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_R", "timestamp": 699504.815772543, "wall_time": 1766524658.8516598, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_R", "timestamp": 699504.815986321, "wall_time": 1766524658.851871, "metadata": {"original": "r", "scrambled": "b"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_SPACE", "timestamp": 699504.895834043, "wall_time": 1766524658.9317207, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_SPACE", "timestamp": 699504.896088858, "wall_time": 1766524658.9319735, "metadata": {"original": " ", "scrambled": "&"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_T", "timestamp": 699505.903866505, "wall_time": 1766524659.939753, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_T", "timestamp": 699505.90411832, "wall_time": 1766524659.9400032, "metadata": {"original": "t", "scrambled": "u"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_H", "timestamp": 699505.983998635, "wall_time": 1766524660.0198984, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_H", "timestamp": 699505.984565598, "wall_time": 1766524660.0204513, "metadata": {"original": "h", "scrambled": "c"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_E", "timestamp": 699507.023875208, "wall_time": 1766524661.059763, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_E", "timestamp": 699507.026192116, "wall_time": 1766524661.0620797, "metadata": {"original": "e", "scrambled": "i"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_SPACE", "timestamp": 699507.151818893, "wall_time": 1766524661.1877055, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_SPACE", "timestamp": 699507.152056282, "wall_time": 1766524661.187941, "metadata": {"original": " ", "scrambled": "&"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699507.503849171, "wall_time": 1766524661.539736, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699507.504145171, "wall_time": 1766524661.5400298, "metadata": {"original": "a", "scrambled": "q"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_B", "timestamp": 699507.647874004, "wall_time": 1766524661.6837606, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_B", "timestamp": 699507.648113689, "wall_time": 1766524661.6839993, "metadata": {"original": "b", "scrambled": "p"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_I", "timestamp": 699507.967963541, "wall_time": 1766524662.00385, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_I", "timestamp": 699507.968221597, "wall_time": 1766524662.0041065, "metadata": {"original": "i", "scrambled": "x"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_L", "timestamp": 699508.992016744, "wall_time": 1766524663.0279033, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_L", "timestamp": 699508.992277874, "wall_time": 1766524663.0281625, "metadata": {"original": "l", "scrambled": "m"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_I", "timestamp": 699509.151910874, "wall_time": 1766524663.1877975, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_I", "timestamp": 699509.152174207, "wall_time": 1766524663.1880589, "metadata": {"original": "i", "scrambled": "x"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_T", "timestamp": 699509.263894429, "wall_time": 1766524663.2997804, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_T", "timestamp": 699509.26412617, "wall_time": 1766524663.3000107, "metadata": {"original": "t", "scrambled": "u"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_I", "timestamp": 699509.375940244, "wall_time": 1766524663.4118268, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_I", "timestamp": 699509.376172448, "wall_time": 1766524663.4120572, "metadata": {"original": "i", "scrambled": "x"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_D", "timestamp": 699509.583908892, "wall_time": 1766524663.619795, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_D", "timestamp": 699509.584139244, "wall_time": 1766524663.6200237, "metadata": {"original": "d", "scrambled": "e"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_L", "timestamp": 699509.808057058, "wall_time": 1766524663.8439436, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_L", "timestamp": 699509.808288577, "wall_time": 1766524663.844173, "metadata": {"original": "l", "scrambled": "m"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_ENTER", "timestamp": 699511.45608928, "wall_time": 1766524665.491976, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_ENTER", "timestamp": 699511.614457817, "wall_time": 1766524665.6503427, "metadata": {"passthrough": true}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_ENTER", "timestamp": 699511.632061298, "wall_time": 1766524665.6679473, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_ENTER", "timestamp": 699511.632314798, "wall_time": 1766524665.6681998, "metadata": {"passthrough": true}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699512.06407815, "wall_time": 1766524666.0999649, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699512.065232927, "wall_time": 1766524666.1011186, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699512.320078316, "wall_time": 1766524666.355965, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699512.320295501, "wall_time": 1766524666.35618, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699512.360202094, "wall_time": 1766524666.3960924, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699512.360744853, "wall_time": 1766524666.3966296, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699512.400080835, "wall_time": 1766524666.435967, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699512.400384983, "wall_time": 1766524666.4362698, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699512.440048001, "wall_time": 1766524666.4759338, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699512.440220705, "wall_time": 1766524666.4761052, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699512.480108223, "wall_time": 1766524666.515995, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699512.480397853, "wall_time": 1766524666.5162823, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699512.520075649, "wall_time": 1766524666.5559626, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699512.520349798, "wall_time": 1766524666.5562341, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699512.560090668, "wall_time": 1766524666.5959766, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699512.560372927, "wall_time": 1766524666.5962572, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699512.600091853, "wall_time": 1766524666.6359773, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699512.60034402, "wall_time": 1766524666.6362283, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699512.640060797, "wall_time": 1766524666.6759465, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699512.640219001, "wall_time": 1766524666.6761034, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699512.680118038, "wall_time": 1766524666.716005, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699512.680427427, "wall_time": 1766524666.7163122, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699512.720103483, "wall_time": 1766524666.755991, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699512.720508779, "wall_time": 1766524666.7563932, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699512.760122334, "wall_time": 1766524666.79601, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699512.760493316, "wall_time": 1766524666.7963777, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699512.800098927, "wall_time": 1766524666.835987, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699512.800438575, "wall_time": 1766524666.836323, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699512.840053964, "wall_time": 1766524666.87594, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699512.840225427, "wall_time": 1766524666.8761098, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699512.880139779, "wall_time": 1766524666.9160264, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699512.880507816, "wall_time": 1766524666.916392, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699512.920290964, "wall_time": 1766524666.9561846, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699512.921071779, "wall_time": 1766524666.956958, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699512.960204945, "wall_time": 1766524666.9960923, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699512.960643464, "wall_time": 1766524666.996528, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699513.000098427, "wall_time": 1766524667.0359857, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699513.000287686, "wall_time": 1766524667.036172, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699513.04008176, "wall_time": 1766524667.075968, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699513.040269723, "wall_time": 1766524667.076154, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699513.080201186, "wall_time": 1766524667.1160893, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699513.080569612, "wall_time": 1766524667.1164541, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699513.120333482, "wall_time": 1766524667.156225, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699513.121075908, "wall_time": 1766524667.1569629, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699513.160187945, "wall_time": 1766524667.1960769, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699513.160627742, "wall_time": 1766524667.1965122, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699513.200097297, "wall_time": 1766524667.2359843, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699513.200283038, "wall_time": 1766524667.2361674, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699513.240083056, "wall_time": 1766524667.27597, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699513.240269538, "wall_time": 1766524667.2761538, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699513.28019639, "wall_time": 1766524667.316084, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699513.280572723, "wall_time": 1766524667.3164573, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699513.320352927, "wall_time": 1766524667.3562438, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699513.321098519, "wall_time": 1766524667.3569837, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699513.360223093, "wall_time": 1766524667.396111, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699513.360637149, "wall_time": 1766524667.3965216, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699513.400139575, "wall_time": 1766524667.436029, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699513.400538093, "wall_time": 1766524667.4364223, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699513.440057019, "wall_time": 1766524667.4759429, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699513.440239575, "wall_time": 1766524667.476124, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699513.480131371, "wall_time": 1766524667.5160172, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699513.480456241, "wall_time": 1766524667.5163407, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699513.520187723, "wall_time": 1766524667.5560772, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699513.520791871, "wall_time": 1766524667.5566766, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699513.560133482, "wall_time": 1766524667.5960217, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699513.56052413, "wall_time": 1766524667.5964086, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699513.600086612, "wall_time": 1766524667.635974, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699513.600449075, "wall_time": 1766524667.6363342, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699513.640057519, "wall_time": 1766524667.675943, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699513.640224519, "wall_time": 1766524667.6761088, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699513.680118019, "wall_time": 1766524667.7160044, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699513.680450815, "wall_time": 1766524667.716335, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699513.720169426, "wall_time": 1766524667.7560573, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699513.720723686, "wall_time": 1766524667.7566085, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699513.760136519, "wall_time": 1766524667.7960243, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699513.760537445, "wall_time": 1766524667.796422, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699513.800107315, "wall_time": 1766524667.8359945, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699513.80043876, "wall_time": 1766524667.8363237, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699513.840074371, "wall_time": 1766524667.8759604, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699513.840274649, "wall_time": 1766524667.8761594, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699513.880132278, "wall_time": 1766524667.9160197, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699513.880464537, "wall_time": 1766524667.916349, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699513.920202278, "wall_time": 1766524667.956092, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699513.920822334, "wall_time": 1766524667.956707, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699513.960142445, "wall_time": 1766524667.99603, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699513.960525982, "wall_time": 1766524667.9964108, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699514.000080982, "wall_time": 1766524668.0359697, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699514.000442834, "wall_time": 1766524668.0363278, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699514.040068519, "wall_time": 1766524668.0759554, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699514.040263426, "wall_time": 1766524668.076148, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699514.080113426, "wall_time": 1766524668.116002, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699514.080439445, "wall_time": 1766524668.116324, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699514.120155445, "wall_time": 1766524668.1560428, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699514.120721074, "wall_time": 1766524668.1566076, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699514.16014726, "wall_time": 1766524668.196035, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699514.160608908, "wall_time": 1766524668.1964936, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699514.200077111, "wall_time": 1766524668.235964, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699514.200478945, "wall_time": 1766524668.2363632, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699514.240068093, "wall_time": 1766524668.2759552, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699514.240279148, "wall_time": 1766524668.2761636, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699514.280153759, "wall_time": 1766524668.3160415, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699514.280528852, "wall_time": 1766524668.316414, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699514.320205593, "wall_time": 1766524668.3560936, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699514.320835463, "wall_time": 1766524668.3567204, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699514.36017613, "wall_time": 1766524668.3960648, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699514.360628982, "wall_time": 1766524668.396514, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699514.400076167, "wall_time": 1766524668.4359624, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699514.400447796, "wall_time": 1766524668.4363325, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699514.440058815, "wall_time": 1766524668.4759445, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699514.440230333, "wall_time": 1766524668.4761147, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699514.480120037, "wall_time": 1766524668.5160065, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699514.480457945, "wall_time": 1766524668.5163422, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699514.520161852, "wall_time": 1766524668.5560505, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699514.520723537, "wall_time": 1766524668.5566099, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699514.560133963, "wall_time": 1766524668.5960217, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699514.560545815, "wall_time": 1766524668.59643, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699514.600076852, "wall_time": 1766524668.6359632, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699514.600435722, "wall_time": 1766524668.6363208, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699514.64005637, "wall_time": 1766524668.675942, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699514.640231278, "wall_time": 1766524668.6761158, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699514.680146444, "wall_time": 1766524668.716033, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699514.680501222, "wall_time": 1766524668.7163856, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699514.720200907, "wall_time": 1766524668.7560918, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699514.720823352, "wall_time": 1766524668.7567086, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699514.760140037, "wall_time": 1766524668.796027, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699514.760562, "wall_time": 1766524668.7964466, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699514.800126407, "wall_time": 1766524668.8360138, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699514.800469296, "wall_time": 1766524668.8363538, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699514.840055648, "wall_time": 1766524668.875941, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699514.840224704, "wall_time": 1766524668.8761091, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699514.880131537, "wall_time": 1766524668.916018, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699514.880457759, "wall_time": 1766524668.916342, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699514.920186704, "wall_time": 1766524668.9560778, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699514.920803352, "wall_time": 1766524668.9566882, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699514.960137944, "wall_time": 1766524668.996025, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699514.960525426, "wall_time": 1766524668.99641, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699515.000130426, "wall_time": 1766524669.0360177, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699515.000519648, "wall_time": 1766524669.0364044, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699515.040056037, "wall_time": 1766524669.0759413, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699515.040231703, "wall_time": 1766524669.0761163, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699515.080109629, "wall_time": 1766524669.1159956, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699515.080437889, "wall_time": 1766524669.1163223, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699515.120184407, "wall_time": 1766524669.1560721, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699515.120776555, "wall_time": 1766524669.1566622, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699515.160288314, "wall_time": 1766524669.19618, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699515.161126759, "wall_time": 1766524669.1970117, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699515.20015774, "wall_time": 1766524669.236046, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699515.200576574, "wall_time": 1766524669.2364614, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699515.240268666, "wall_time": 1766524669.276158, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699515.240794277, "wall_time": 1766524669.2766807, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699515.280194777, "wall_time": 1766524669.316083, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699515.280734259, "wall_time": 1766524669.316619, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_ENTER", "timestamp": 699515.520331796, "wall_time": 1766524669.5562193, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_ENTER", "timestamp": 699515.520762129, "wall_time": 1766524669.5566466, "metadata": {"passthrough": true}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699515.632502092, "wall_time": 1766524669.6683931, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699515.633164814, "wall_time": 1766524669.6690521, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699515.888068314, "wall_time": 1766524669.9239552, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699515.888260962, "wall_time": 1766524669.9241455, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699515.928137055, "wall_time": 1766524669.9640248, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699515.928504388, "wall_time": 1766524669.9643893, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699515.968092758, "wall_time": 1766524670.003979, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699515.968294388, "wall_time": 1766524670.004179, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699516.008089092, "wall_time": 1766524670.0439754, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699516.008266666, "wall_time": 1766524670.044151, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699516.048169666, "wall_time": 1766524670.0840566, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699516.048525314, "wall_time": 1766524670.08441, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699516.088232073, "wall_time": 1766524670.12412, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699516.088625388, "wall_time": 1766524670.12451, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699516.128090444, "wall_time": 1766524670.163976, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699516.128265147, "wall_time": 1766524670.1641495, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699516.168092555, "wall_time": 1766524670.2039785, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699516.16837261, "wall_time": 1766524670.204257, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699516.208094647, "wall_time": 1766524670.2439806, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699516.208274573, "wall_time": 1766524670.244159, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699516.248172073, "wall_time": 1766524670.284061, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699516.248539869, "wall_time": 1766524670.2844243, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699516.288202592, "wall_time": 1766524670.3240907, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699516.288561073, "wall_time": 1766524670.3244455, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699516.328201869, "wall_time": 1766524670.3640904, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699516.328636351, "wall_time": 1766524670.3645208, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699516.368141536, "wall_time": 1766524670.4040315, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699516.368361721, "wall_time": 1766524670.4042463, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699516.408055703, "wall_time": 1766524670.443941, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699516.408241332, "wall_time": 1766524670.4441257, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699516.448102999, "wall_time": 1766524670.4839888, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699516.448427999, "wall_time": 1766524670.4843123, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699516.488164777, "wall_time": 1766524670.524052, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699516.488821666, "wall_time": 1766524670.5247068, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699516.528148851, "wall_time": 1766524670.5640368, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699516.528548517, "wall_time": 1766524670.5644329, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699516.568071869, "wall_time": 1766524670.6039574, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699516.568251962, "wall_time": 1766524670.6041365, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699516.60805661, "wall_time": 1766524670.6439424, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699516.608215665, "wall_time": 1766524670.6441002, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_ENTER", "timestamp": 699516.624354314, "wall_time": 1766524670.6602407, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_ENTER", "timestamp": 699516.624665888, "wall_time": 1766524670.6605504, "metadata": {"passthrough": true}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699516.736213573, "wall_time": 1766524670.7720993, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699516.736424128, "wall_time": 1766524670.7723088, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699517.020059962, "wall_time": 1766524671.0559464, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699517.020272443, "wall_time": 1766524671.0561569, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699517.060058869, "wall_time": 1766524671.095944, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699517.060224962, "wall_time": 1766524671.0961094, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699517.100076961, "wall_time": 1766524671.1359642, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699517.100359647, "wall_time": 1766524671.136244, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699517.140066998, "wall_time": 1766524671.1759524, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699517.140249036, "wall_time": 1766524671.1761334, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699517.18010561, "wall_time": 1766524671.215992, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699517.180435795, "wall_time": 1766524671.2163203, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699517.220053647, "wall_time": 1766524671.2559397, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699517.220264369, "wall_time": 1766524671.2561488, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699517.264115887, "wall_time": 1766524671.3000033, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699517.264539647, "wall_time": 1766524671.300424, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699517.304041202, "wall_time": 1766524671.3399265, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699517.304206795, "wall_time": 1766524671.3400915, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699517.344109424, "wall_time": 1766524671.379997, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699517.344531813, "wall_time": 1766524671.3804162, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699517.384135998, "wall_time": 1766524671.420024, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699517.384565572, "wall_time": 1766524671.42045, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699517.424134646, "wall_time": 1766524671.460022, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699517.424550146, "wall_time": 1766524671.4604344, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699517.464187554, "wall_time": 1766524671.500078, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699517.464468961, "wall_time": 1766524671.5003548, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699517.504076832, "wall_time": 1766524671.5399628, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699517.504275498, "wall_time": 1766524671.5401602, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699517.544169609, "wall_time": 1766524671.580057, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699517.544608795, "wall_time": 1766524671.5804932, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699517.584186146, "wall_time": 1766524671.6200774, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699517.584725906, "wall_time": 1766524671.6206105, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699517.624208387, "wall_time": 1766524671.6600976, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699517.624646369, "wall_time": 1766524671.660531, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699517.66419498, "wall_time": 1766524671.700083, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699517.668244443, "wall_time": 1766524671.704129, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699517.704075202, "wall_time": 1766524671.7399616, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699517.704281517, "wall_time": 1766524671.7401662, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699517.74412972, "wall_time": 1766524671.7800179, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699517.744560294, "wall_time": 1766524671.7804446, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_ENTER", "timestamp": 699517.776250868, "wall_time": 1766524671.8121362, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_ENTER", "timestamp": 699517.776348183, "wall_time": 1766524671.8122325, "metadata": {"passthrough": true}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699517.872255165, "wall_time": 1766524671.9081411, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699517.872460776, "wall_time": 1766524671.9083455, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699518.140076553, "wall_time": 1766524672.175963, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699518.140268239, "wall_time": 1766524672.1761525, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699518.180160461, "wall_time": 1766524672.216049, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699518.180580479, "wall_time": 1766524672.2164655, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699518.224177553, "wall_time": 1766524672.2600648, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699518.224628776, "wall_time": 1766524672.2605135, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699518.264086294, "wall_time": 1766524672.2999725, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699518.264287016, "wall_time": 1766524672.3001716, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699518.304064794, "wall_time": 1766524672.3399506, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699518.304255794, "wall_time": 1766524672.3401403, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699518.344141979, "wall_time": 1766524672.3800285, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699518.344527646, "wall_time": 1766524672.380412, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699518.384079331, "wall_time": 1766524672.4199667, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699518.384421461, "wall_time": 1766524672.420306, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699518.424172887, "wall_time": 1766524672.460061, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699518.424619442, "wall_time": 1766524672.460504, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699518.464088683, "wall_time": 1766524672.499975, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699518.464461127, "wall_time": 1766524672.500346, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699518.504061312, "wall_time": 1766524672.5399468, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699518.504234516, "wall_time": 1766524672.540119, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699518.544138905, "wall_time": 1766524672.5800266, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699518.54452109, "wall_time": 1766524672.5804055, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699518.584156312, "wall_time": 1766524672.6200464, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699518.584650609, "wall_time": 1766524672.6205351, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699518.624136498, "wall_time": 1766524672.6600232, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699518.624527701, "wall_time": 1766524672.6604128, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699518.664132238, "wall_time": 1766524672.7000194, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699518.664442553, "wall_time": 1766524672.700327, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699518.704059053, "wall_time": 1766524672.7399447, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699518.704225812, "wall_time": 1766524672.7401102, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699518.74414009, "wall_time": 1766524672.7800272, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699518.744508553, "wall_time": 1766524672.7803934, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699518.784140109, "wall_time": 1766524672.8200266, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699518.784566868, "wall_time": 1766524672.8204513, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699518.824137516, "wall_time": 1766524672.8600247, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699518.824516035, "wall_time": 1766524672.8604004, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699518.864124683, "wall_time": 1766524672.9000118, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699518.864537423, "wall_time": 1766524672.9004226, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699518.904060331, "wall_time": 1766524672.939946, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699518.904226942, "wall_time": 1766524672.9401114, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_ENTER", "timestamp": 699518.912458812, "wall_time": 1766524672.9483454, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_ENTER", "timestamp": 699518.912785812, "wall_time": 1766524672.9486709, "metadata": {"passthrough": true}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699519.008320923, "wall_time": 1766524673.0442078, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699519.00851359, "wall_time": 1766524673.0443983, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699519.264058682, "wall_time": 1766524673.2999442, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699519.26422709, "wall_time": 1766524673.3001115, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699519.304060108, "wall_time": 1766524673.3399456, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699519.304224738, "wall_time": 1766524673.340109, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699519.344110145, "wall_time": 1766524673.3799963, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699519.344438682, "wall_time": 1766524673.3803234, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699519.384105905, "wall_time": 1766524673.4199917, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699519.384449534, "wall_time": 1766524673.420334, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699519.424052275, "wall_time": 1766524673.459938, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699519.424225812, "wall_time": 1766524673.4601104, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699519.464072219, "wall_time": 1766524673.4999583, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699519.464351034, "wall_time": 1766524673.5002363, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699519.504051793, "wall_time": 1766524673.539937, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699519.504207034, "wall_time": 1766524673.5400913, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699519.54410533, "wall_time": 1766524673.5799916, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699519.54445733, "wall_time": 1766524673.5803418, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699519.584133849, "wall_time": 1766524673.620021, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699519.584546182, "wall_time": 1766524673.620432, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699519.624072016, "wall_time": 1766524673.6599574, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699519.62426183, "wall_time": 1766524673.6601462, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699519.664103775, "wall_time": 1766524673.6999903, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699519.664490756, "wall_time": 1766524673.700375, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699519.704069219, "wall_time": 1766524673.739956, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699519.704254793, "wall_time": 1766524673.7401392, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699519.744119071, "wall_time": 1766524673.7800062, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699519.744495497, "wall_time": 1766524673.78038, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699519.784155738, "wall_time": 1766524673.8200438, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699519.784540238, "wall_time": 1766524673.8204248, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699519.824198719, "wall_time": 1766524673.8600883, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699519.824711275, "wall_time": 1766524673.860596, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699519.864147571, "wall_time": 1766524673.9000359, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699519.864598275, "wall_time": 1766524673.900483, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699519.904085349, "wall_time": 1766524673.939972, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699519.904303367, "wall_time": 1766524673.940188, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699519.944167293, "wall_time": 1766524673.980055, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699519.944582182, "wall_time": 1766524673.9804666, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699519.984226293, "wall_time": 1766524674.0201168, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699519.984974423, "wall_time": 1766524674.0208592, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699520.024157349, "wall_time": 1766524674.0600474, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699520.024622052, "wall_time": 1766524674.0605066, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699520.064146089, "wall_time": 1766524674.1000345, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699520.064596293, "wall_time": 1766524674.1004808, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_ENTER", "timestamp": 699520.065562719, "wall_time": 1766524674.101447, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_ENTER", "timestamp": 699520.065622237, "wall_time": 1766524674.1015065, "metadata": {"passthrough": true}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699520.176378497, "wall_time": 1766524674.212265, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699520.17666596, "wall_time": 1766524674.2125504, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699520.444064534, "wall_time": 1766524674.4799507, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699520.444260108, "wall_time": 1766524674.4801447, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699520.484134589, "wall_time": 1766524674.520022, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699520.484545126, "wall_time": 1766524674.5204296, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699520.524122774, "wall_time": 1766524674.560011, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699520.524456571, "wall_time": 1766524674.560341, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699520.564103552, "wall_time": 1766524674.5999894, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699520.564426885, "wall_time": 1766524674.6003113, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699520.604056237, "wall_time": 1766524674.6399417, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699520.604210052, "wall_time": 1766524674.6400945, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699520.644113885, "wall_time": 1766524674.679999, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699520.644457608, "wall_time": 1766524674.680342, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699520.684075848, "wall_time": 1766524674.7199616, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699520.684241904, "wall_time": 1766524674.7201262, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699520.724050163, "wall_time": 1766524674.7599359, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699520.724211848, "wall_time": 1766524674.7600963, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699520.764096367, "wall_time": 1766524674.7999828, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699520.764384144, "wall_time": 1766524674.8002687, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699520.804110515, "wall_time": 1766524674.839998, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699520.804347756, "wall_time": 1766524674.8402321, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699520.844139033, "wall_time": 1766524674.880027, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699520.844551293, "wall_time": 1766524674.8804357, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699520.884211404, "wall_time": 1766524674.9200983, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699520.884876163, "wall_time": 1766524674.9207609, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699520.924177589, "wall_time": 1766524674.9600654, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699520.924638774, "wall_time": 1766524674.9605236, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699520.964168718, "wall_time": 1766524675.000057, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699520.964606811, "wall_time": 1766524675.0004916, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699521.008063996, "wall_time": 1766524675.0439496, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699521.00825883, "wall_time": 1766524675.0441434, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699521.048116755, "wall_time": 1766524675.084003, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699521.048492885, "wall_time": 1766524675.0843773, "metadata": {"original": "a", "scrambled": "s"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699521.088246163, "wall_time": 1766524675.1241374, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699521.614582922, "wall_time": 1766524675.6504676, "metadata": {"original": "a", "scrambled": "z"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699521.615818903, "wall_time": 1766524675.6517048, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699521.619460274, "wall_time": 1766524675.655346, "metadata": {"original": "a", "scrambled": "z"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699521.620708125, "wall_time": 1766524675.6565948, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699521.620975625, "wall_time": 1766524675.6568606, "metadata": {"original": "a", "scrambled": "z"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_ENTER", "timestamp": 699521.622687311, "wall_time": 1766524675.658574, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_ENTER", "timestamp": 699521.622881848, "wall_time": 1766524675.6587663, "metadata": {"passthrough": true}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699521.624592477, "wall_time": 1766524675.6604772, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699521.62467907, "wall_time": 1766524675.6605635, "metadata": {"original": "a", "scrambled": "z"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699521.626594774, "wall_time": 1766524675.6624792, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699521.62664944, "wall_time": 1766524675.662534, "metadata": {"original": "a", "scrambled": "z"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699521.636179218, "wall_time": 1766524675.672067, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699521.636694885, "wall_time": 1766524675.67258, "metadata": {"original": "a", "scrambled": "z"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699521.676050496, "wall_time": 1766524675.7119358, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699521.676202644, "wall_time": 1766524675.7120872, "metadata": {"original": "a", "scrambled": "z"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699521.716111218, "wall_time": 1766524675.7519991, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699521.716420737, "wall_time": 1766524675.7523053, "metadata": {"original": "a", "scrambled": "z"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699521.760107551, "wall_time": 1766524675.795993, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699521.760478051, "wall_time": 1766524675.7963624, "metadata": {"original": "a", "scrambled": "z"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699521.800056848, "wall_time": 1766524675.8359418, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699521.800222496, "wall_time": 1766524675.836107, "metadata": {"original": "a", "scrambled": "z"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699521.840056514, "wall_time": 1766524675.8759422, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699521.840241459, "wall_time": 1766524675.876126, "metadata": {"original": "a", "scrambled": "z"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699521.880088996, "wall_time": 1766524675.9159746, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699521.880413699, "wall_time": 1766524675.9162982, "metadata": {"original": "a", "scrambled": "z"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699521.920090422, "wall_time": 1766524675.955977, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699521.920392199, "wall_time": 1766524675.956277, "metadata": {"original": "a", "scrambled": "z"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699521.960062959, "wall_time": 1766524675.995949, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699521.960257996, "wall_time": 1766524675.9961424, "metadata": {"original": "a", "scrambled": "z"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699522.00013507, "wall_time": 1766524676.0360224, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699522.000579107, "wall_time": 1766524676.0364635, "metadata": {"original": "a", "scrambled": "z"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699522.040064644, "wall_time": 1766524676.0759504, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699522.04025631, "wall_time": 1766524676.0761409, "metadata": {"original": "a", "scrambled": "z"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699522.080124959, "wall_time": 1766524676.1160123, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699522.080505625, "wall_time": 1766524676.1163902, "metadata": {"original": "a", "scrambled": "z"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699522.120251829, "wall_time": 1766524676.1561418, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699522.121033125, "wall_time": 1766524676.156919, "metadata": {"original": "a", "scrambled": "z"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699522.160196107, "wall_time": 1766524676.1960852, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699522.160659218, "wall_time": 1766524676.1965442, "metadata": {"original": "a", "scrambled": "z"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699522.200204662, "wall_time": 1766524676.2360938, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699522.20062331, "wall_time": 1766524676.2365081, "metadata": {"original": "a", "scrambled": "z"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699522.240072792, "wall_time": 1766524676.2759588, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699522.240263421, "wall_time": 1766524676.276148, "metadata": {"original": "a", "scrambled": "z"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699522.280136218, "wall_time": 1766524676.3160238, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699522.280615958, "wall_time": 1766524676.316501, "metadata": {"original": "a", "scrambled": "z"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699522.320349032, "wall_time": 1766524676.3562436, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699522.321069662, "wall_time": 1766524676.356955, "metadata": {"original": "a", "scrambled": "z"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699522.360224403, "wall_time": 1766524676.396114, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699522.360685199, "wall_time": 1766524676.39657, "metadata": {"original": "a", "scrambled": "z"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699522.400136606, "wall_time": 1766524676.4360237, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699522.400583255, "wall_time": 1766524676.4364688, "metadata": {"original": "a", "scrambled": "z"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699522.440062625, "wall_time": 1766524676.4759483, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699522.44026581, "wall_time": 1766524676.4761503, "metadata": {"original": "a", "scrambled": "z"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699522.48011618, "wall_time": 1766524676.5160036, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699522.480489106, "wall_time": 1766524676.5163739, "metadata": {"original": "a", "scrambled": "z"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699522.52019781, "wall_time": 1766524676.5560863, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699522.520816032, "wall_time": 1766524676.556701, "metadata": {"original": "a", "scrambled": "z"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699522.560163162, "wall_time": 1766524676.5960507, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699522.560580477, "wall_time": 1766524676.5964649, "metadata": {"original": "a", "scrambled": "z"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699522.60010944, "wall_time": 1766524676.6359992, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699522.60052268, "wall_time": 1766524676.6364076, "metadata": {"original": "a", "scrambled": "z"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699522.640064699, "wall_time": 1766524676.6759503, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699522.640265217, "wall_time": 1766524676.6761498, "metadata": {"original": "a", "scrambled": "z"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699522.680112403, "wall_time": 1766524676.7160013, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699522.680472088, "wall_time": 1766524676.7163565, "metadata": {"original": "a", "scrambled": "z"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699522.720226903, "wall_time": 1766524676.7561188, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699522.720935958, "wall_time": 1766524676.756822, "metadata": {"original": "a", "scrambled": "z"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699522.76014268, "wall_time": 1766524676.7960317, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699522.760557643, "wall_time": 1766524676.7964425, "metadata": {"original": "a", "scrambled": "z"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699522.80009168, "wall_time": 1766524676.8359795, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699522.800471717, "wall_time": 1766524676.8363566, "metadata": {"original": "a", "scrambled": "z"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699522.840060884, "wall_time": 1766524676.8759463, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699522.840236532, "wall_time": 1766524676.876121, "metadata": {"original": "a", "scrambled": "z"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699522.880139995, "wall_time": 1766524676.9160273, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699522.880520014, "wall_time": 1766524676.9164045, "metadata": {"original": "a", "scrambled": "z"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699522.924181588, "wall_time": 1766524676.9600701, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699522.924609236, "wall_time": 1766524676.960494, "metadata": {"original": "a", "scrambled": "z"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699522.968132884, "wall_time": 1766524677.0040207, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699522.968508032, "wall_time": 1766524677.0043926, "metadata": {"original": "a", "scrambled": "z"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699523.008090976, "wall_time": 1766524677.0439775, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699523.008275717, "wall_time": 1766524677.0441604, "metadata": {"original": "a", "scrambled": "z"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699523.048176402, "wall_time": 1766524677.084065, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699523.048555717, "wall_time": 1766524677.0844402, "metadata": {"original": "a", "scrambled": "z"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699523.088225421, "wall_time": 1766524677.1241164, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699523.089432976, "wall_time": 1766524677.1253216, "metadata": {"original": "a", "scrambled": "z"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699523.128205976, "wall_time": 1766524677.1640935, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699523.128634884, "wall_time": 1766524677.1645193, "metadata": {"original": "a", "scrambled": "z"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699523.168158384, "wall_time": 1766524677.2040474, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699523.168545976, "wall_time": 1766524677.2044308, "metadata": {"original": "a", "scrambled": "z"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699523.208097884, "wall_time": 1766524677.2439854, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699523.208309976, "wall_time": 1766524677.2441945, "metadata": {"original": "a", "scrambled": "z"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699523.248149162, "wall_time": 1766524677.2840369, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699523.248538347, "wall_time": 1766524677.2844229, "metadata": {"original": "a", "scrambled": "z"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699523.288323124, "wall_time": 1766524677.3242147, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699523.292177254, "wall_time": 1766524677.3280654, "metadata": {"original": "a", "scrambled": "z"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699523.328124976, "wall_time": 1766524677.3640132, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699523.328488847, "wall_time": 1766524677.3643732, "metadata": {"original": "a", "scrambled": "z"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699523.368107143, "wall_time": 1766524677.4039958, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699523.368487495, "wall_time": 1766524677.4043722, "metadata": {"original": "a", "scrambled": "z"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_A", "timestamp": 699523.408051365, "wall_time": 1766524677.443937, "metadata": {}}
+{"session": 1766524635915, "device": "SENDER", "event": "encrypt_send", "key": "KEY_A", "timestamp": 699523.408222069, "wall_time": 1766524677.4441066, "metadata": {"original": "a", "scrambled": "z"}}
+{"session": 1766524635915, "device": "SENDER", "event": "capture", "key": "KEY_C", "timestamp": 699529.296800325, "wall_time": 1766524683.332687, "metadata": {}}
